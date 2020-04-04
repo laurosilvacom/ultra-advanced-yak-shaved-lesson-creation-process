@@ -2,6 +2,16 @@
 
 ## Create a Lesson Template
 
+1. Go to CodeSandbox and create a Sandbox.
+
+2. Then we'll create a GitHub repo from this template by signing in with GitHub, forking the Sandbox.
+
+3. From Github, grab the link to clone repo, use `degit`:
+
+```bash
+npx degit git@github.com:laurosilvacom/vanilla-template.git vanilla-01
+```
+
 ## Create Repos on Github from the CLI with hub
 
 ## Automate Lesson Creation From Templates With ZSH Functions
