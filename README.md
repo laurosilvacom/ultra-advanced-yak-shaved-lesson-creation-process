@@ -14,6 +14,20 @@ npx degit git@github.com:laurosilvacom/vanilla-template.git vanilla-01
 
 ## Create Repos on Github from the CLI with hub
 
+```
+# create a repo to host a new project on GitHub
+git init
+git add .
+git commit -m "And so, it begins."
+hub create
+→ (creates a new GitHub repository with the name of the current directory)
+git push -u origin HEAD
+```
+
+```
+alias git="hub"
+```
+
 ## Automate Lesson Creation From Templates With ZSH Functions
 
 ## Branch and Create a Lesson in a Single ZSH Function
